@@ -19,7 +19,7 @@ const EditBook = () => {
 
     setLoading(true)
     axios
-      .get(`http://localhost:5555/books/${id}`)
+      .get(`https://meminulusoy-bookstore-mern.onrender.com/books/${id}`)
       .then((res)=>{
         setAuthor(res.data.author)
         setPublishYear(res.data.publishYear)
@@ -46,7 +46,7 @@ const EditBook = () => {
 
     setLoading(true)
 
-    axios.put(`http://localhost:5555/books/${id}`, data)
+    axios.put(`https://meminulusoy-bookstore-mern.onrender.com/books/${id}`, data)
       .then(()=>{
         setLoading(false)
         enqueueSnackbar("Book Updated Successfully", {variant: "success"})

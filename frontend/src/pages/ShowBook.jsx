@@ -14,7 +14,7 @@ const ShowBook = () => {
 
     setLoading(true)
 
-    axios.get(`http://localhost:5555/books/${id}`)
+    axios.get(`https://meminulusoy-bookstore-mern.onrender.com/books/${id}`)
       .then((res)=>{
         setBook(res.data)
         setLoading(false)

@@ -15,7 +15,7 @@ const DeleteBook = () => {
 
   const handleDeleteBook = () => {
     setLoading(true)
-    axios.delete(`http://localhost:5555/books/${id}`)
+    axios.delete(`https://meminulusoy-bookstore-mern.onrender.com/books/${id}`)
       .then(()=>{
         setLoading(false)
         enqueueSnackbar("Book Deleted Successfully", {variant: "success"})
