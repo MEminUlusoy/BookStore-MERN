@@ -2,7 +2,7 @@
 
 -BookStore-MERN website is used for book storage . It is a completely responsive webpage.
 
-- You can do all CRUD operations, All datas is stored in cloud. 
+-You can do all CRUD operations, All datas is stored in cloud. 
 
 -I have used React, Tailwind, Node.js, Express.js, MongoDB-Atlas.
 
