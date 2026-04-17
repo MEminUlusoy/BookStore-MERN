@@ -30,7 +30,7 @@ const getAllBooks = async (req,res) => {
             data: books
         })
     } catch (error) {
-        req.status(500).json({
+        res.status(500).json({
             succeded: false,
             error
         })
